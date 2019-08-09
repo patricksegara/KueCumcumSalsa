@@ -1,18 +1,18 @@
 body{
-    margin: 2px;
+    margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: arial sans-serif;
 }
 
-.navbar{
+.nduwuran{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 #logo{
-    position: relative;
-    top: 15px;
-    right: 32%;
+    margin-left:
     width: 75px;
     height: 45px;
 }
@@ -70,126 +70,31 @@ ul li:hover a:after{
     transform: translate(-50%,-50%) scale(1.2);
 }
 
-.mainpic{
-    width: 1000px;
-    display: block;
-    margin: 0 auto;
-
-    display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	
-	background-image: url("assets/image/me2.jpg");
-	background-size: cover;
-
-	height: 700px;
-	width: 85%;
-}
-.headtentang h1{
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: rgb(88, 40, 12);
-    text-shadow: 3px 3px 1px black;
+main{
+    margin: 20px 0;
 }
 
-.headtentang h2{
+.judul{
+    font-size: 64px;
+}
+
+.paragraf{
     font-size: 20px;
-    text-align: center;
-    margin: 0;
-    color: #D0B2AB;
-}
-
-.tentang{
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333;
-    background-color: #fff;
-    width: 700px;
-    margin: 25px 30px 20px 25px;
-    padding: 0 20px 20px 20px;
-    border: 1px solid rgba(158, 145, 133, 0.315);
-}
-
-.kepala{
-    flex-direction: column;
-}
-
-.container1{
-    display: flex;
-    justify-content: space-between;
-}
-.sidepic{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-.renyah h1{
-    color: rgb(226, 150, 150);
-    font-size: 75px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-}
-.renyah {
-    display: flex;
-    justify-content: space-around;
-    color: rgb(226, 150, 150);
-    font-size: 20px;
-    margin: 0;
-
-}
-
-.sidepic1{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-.tahanmudah{
-    display: flex;
-    justify-content: space-between;
-}
-.sidepic2{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-.homemade{
-    justify-content: center;
-}
-.sidepic3{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
 }
 
 .cumsaldef {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 550px;
 }
 
-.cumsalguarantee {
-    display: flex;
+.row1{
+    width: 70%;
+    margin: 0 30px 0 30px;
 }
 
-.cumsaldef .illust img{
-    background-color: rgb(82, 50, 50);
-}
-
-p, span{
-    font: normal 50px Proxima Nova; 
-}
-
-h1{
-    font: normal 80px Proxima Nova;
+.illust{
+    width: 30%;
 }
