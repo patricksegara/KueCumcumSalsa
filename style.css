@@ -192,7 +192,7 @@ body {
 }
 
 .tentang{
-    font-size: 1em !important;
+    font-size: 1.5em !important;
     line-height: 2;
     letter-spacing: 1px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
@@ -210,7 +210,7 @@ body {
 .garis{
     height: 3px;
     background-color:rgb(211, 127, 71);
-    margin: 10px 250px 10px 250px;
+    margin: 15px 250px 50px 250px;
 }
 
 .container1{
@@ -240,7 +240,7 @@ body {
 }
 
 .sidepic1{
-    width: 250px;
+    width: 550px;
     display: block;
     margin: left ;
 }
@@ -260,15 +260,22 @@ body {
     text-align: center;
     padding: 10px 0px;
 }
-
+.last{
+    position: relative;
+}
 .lastpic{
     justify-content: center;
     opacity: 0.5;
     filter: alpha(opacity=50);
-    width: 550px;
-    display: block;
+    width: 100%;
+    display: cover;
     margin: center ;
 }
+.centerpic{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 18px;
 }
 
 main {
