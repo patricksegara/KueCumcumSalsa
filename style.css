@@ -104,6 +104,19 @@ ul li:hover a:after{
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    color: #00539F;
+    color: rgb(88, 40, 12);
     text-shadow: 3px 3px 1px black;
+}
+
+.keterangan{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: #D0B2AB;
+}
+
+.side{
+    width: 750px;
+    display: block;
+    margin: left ;
 }
