@@ -69,36 +69,10 @@ ul li a:after{
 ul li:hover a:after{
     transform: translate(-50%,-50%) scale(1.2);
 }
-
 .mainpic{
-    width: 1000px;
+    width: 750px;
     display: block;
     margin: 0 auto;
-
-    display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	
-	background-image: url("assets/image/me2.jpg");
-	background-size: cover;
-
-	height: 700px;
-	width: 85%;
-}
-.headtentang h1{
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: rgb(88, 40, 12);
-    text-shadow: 3px 3px 1px black;
-}
-
-.headtentang h2{
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    color: #D0B2AB;
 }
 
 .tentang{
@@ -114,82 +88,102 @@ ul li:hover a:after{
     border: 1px solid rgba(158, 145, 133, 0.315);
 }
 
-.kepala{
-    flex-direction: column;
-}
-
-.container1{
-    display: flex;
-    justify-content: space-between;
-}
-.sidepic{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-.renyah h1{
-    color: rgb(226, 150, 150);
-    font-size: 75px;
+.headtentang{
+    font-size: 60px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
 }
-.renyah {
-    display: flex;
-    justify-content: space-around;
-    color: rgb(226, 150, 150);
-    font-size: 20px;
-    margin: 0;
-
-}
-
-.sidepic1{
-    width: 250px;
-    display: block;
-    margin: left ;
+#slider {
+  width: 1000px;
+  height: 1300px;
+  overflow: hidden;
+  border: 1px solid #c69;
+  position: absolute;
 }
 
-.tahanmudah{
-    display: flex;
-    justify-content: space-between;
+.slide {
+  width: 720px;
+  height: 100px;
+  float: left;
+  position: relative;
 }
-.sidepic2{
-    width: 250px;
-    display: block;
-    margin: left ;
+.slide {
+  width: 720px;
+  height: 320px;
+  float: left;
+  position: relative;
 }
-
-.homemade{
-    justify-content: center;
-}
-.sidepic3{
-    width: 250px;
-    display: block;
-    margin: left ;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
+.slide {
+  width: 720px;
+  height: 320px;
+  float: left;
+  position: relative;
 }
 
-.cumsaldef {
-    display: flex;
+#slide-testimoni {
+  width: 400%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 20s infinite;
+          animation: scroller 20s infinite;
 }
 
-.cumsalguarantee {
-    display: flex;
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-1150px);
+            transform: translateX(-1150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
-.cumsaldef .illust img{
-    background-color: rgb(82, 50, 50);
+@keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-1150px);
+            transform: translateX(-1150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
 }
 
-p, span{
-    font: normal 50px Proxima Nova; 
+#slider {
+  margin: 0 auto;
 }
 
-h1{
-    font: normal 80px Proxima Nova;
+.slide:nth-child(1) {
+  background: #c69;
+}
+
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
 }
