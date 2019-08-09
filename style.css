@@ -114,6 +114,10 @@ ul li:hover a:after{
     border: 1px solid rgba(158, 145, 133, 0.315);
 }
 
+.kepala{
+    flex-direction: column;
+}
+
 .container1{
     display: flex;
     justify-content: space-between;
@@ -124,19 +128,31 @@ ul li:hover a:after{
     margin: left ;
 }
 
-.rasa1{
+.renyah h1{
+    color: rgb(226, 150, 150);
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.renyah {
     display: flex;
     justify-content: space-around;
+    color: rgb(226, 150, 150);
+    font-size: 20px;
+    margin: 0;
+
 }
+
 .sidepic1{
     width: 250px;
     display: block;
     margin: left ;
 }
 
-.rasa2{
+.tahanmudah{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .sidepic2{
     width: 250px;
@@ -144,7 +160,7 @@ ul li:hover a:after{
     margin: left ;
 }
 
-.rasa3{
+.homemade{
     justify-content: center;
 }
 .sidepic3{
