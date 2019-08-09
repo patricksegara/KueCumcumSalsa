@@ -8,10 +8,10 @@ body{
     display: flex;
     justify-content: flex-end;
 }
-
+/*
 #apa {
-  font-size : 200px;
-}
+  font-size : 20px;
+}*/
 #logo{
     position: relative;
     top: 15px;
@@ -74,9 +74,10 @@ ul li:hover a:after{
 }
 #slider {
   width: 1000px;
-  height: 1300px;
+  height: 1280px;
   overflow: hidden;
-  border: 1px solid #c69;
+  /*border: 1px solid #c69;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
 }
 
@@ -269,7 +270,6 @@ body {
     display: block;
     margin: center ;
 }
-}
 
 main {
     display: flex;
@@ -293,7 +293,7 @@ h3{
     font-family : 'proxima-nova',  'roboto', sans-serif;
 }
 h1{
-    font: normal 80px Proxima Nova;
+    font: normal 80px "Red Hat Text";
 }
 
 .testimonibar{
@@ -321,3 +321,9 @@ h1{
     font-size: 35px;
 }
 
+.rowstore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 5em 5em 5em;
+}
