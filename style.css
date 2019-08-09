@@ -169,3 +169,11 @@ main {
 .cumsaldef .illust img{
     background-color: rgb(82, 50, 50);
 }
+
+p, span{
+    font: normal 50px Proxima Nova; 
+}
+
+h1{
+    font: normal 80px Proxima Nova;
+}
