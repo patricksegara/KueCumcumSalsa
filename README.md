@@ -43,24 +43,46 @@ Copy Folder Git
 Copy Folder Git ini ke local storage device
 ````
 
-### Features Testing
+## Running the tests
 #### Menjalankan web static
 ```
 Buka file index.html yang terdapat di folder ini dengan klik 2x atau Open With [browser pilihan]
 ```
 
-#### Home Page
+#### Beranda
+````
+Pengguna akan langsung masuk ke halaman beranda jika membuka file index.html
+Menekan "Beranda" pada Navigation Bar juga akan mengarahkan pengguna ke halaman beranda
 ````
 
-````
-
-#### Tentang Page
+#### Tentang Kami
+```
+Menekan "Tentang Kami" pada Navigation Bar akan mengarahkan pengguna ke bagian Tentang Kami
 ```
 
+#### Tentang Kami Page
+```
+Menekan "Selengkapnya Tentang Kami" pada bagian Tentang kami di Beranda akan membawa pengguna ke halaman Tentang Kami
 ```
 
-## Tools, Library and Reference
-* [Notion](https://www.notion.so/Line-Bot-19f68b9a527248d2b7352788c8981076) - layouting line bot
+#### Testimoni
+```
+Menekan "Testimoni" pada Navigation Bar akan mengarahkan pengguna ke bagian Testimoni
+```
+
+#### Beli
+```
+Menekan "Beli" pada Navigation Bar akan mengarahkan pengguna ke bagian Peta Toko
+```
+
+## Deployment
+Untuk menjalankan web static Cumcum Salsa secara Live dibutuhkan server yang berperang sebagai host
+untuk web static ini
+
+## Built With
+* [Materialize CSS](https://materializecss.com/) - CSS Template
+* [Materialize JS](https://materializecss.com/) - JS Library
+* [Google Maps](https://maps.google.com/) - Peta toko
 
 ## Contributing
 Terdapat log act yang mencantumkan kontribusi kami masing-masing dalam proyek ini.
