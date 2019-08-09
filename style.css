@@ -161,19 +161,16 @@ body {
   background: #eee;
 }
 .mainpic{
-    width: 1000px;
     display: block;
     margin: 0 auto;
 
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
-	background-image: url("assets/image/me2.jpg");
 	background-size: cover;
-
-	height: 700px;
-	width: 85%;
+    object-fit: cover;
+    width:75%;
+    height:600px;
 }
 .headtentang h1{
     font-size: 60px;
@@ -192,12 +189,11 @@ body {
 }
 
 .tentang{
-    font-size: 16px;
+    font-size: 1em !important;
     line-height: 2;
     letter-spacing: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
     color: #333;
-    background-color: #fff;
     width: 700px;
     margin: 25px 30px 20px 25px;
     padding: 0 20px 20px 20px;
@@ -208,14 +204,23 @@ body {
     flex-direction: column;
 }
 
+.garis{
+    height: 3px;
+    background-color:rgb(211, 127, 71);
+    margin: 10px 250px 10px 250px;
+}
+
 .container1{
     display: flex;
     justify-content: space-between;
+    padding: 0 auto;
+    background-image: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #e6e4e7, #cfc9cf, #b9afb6, #a5959c);
 }
 .sidepic{
-    width: 250px;
+    width: 15%;
     display: block;
-    margin: left ;
+    background-size: cover;
+    object-fit: cover;
 }
 
 .renyah h1{
@@ -223,15 +228,12 @@ body {
     font-size: 75px;
     text-align: center;
     margin: 0;
-    padding: 20px 0;
 }
 .renyah {
     display: flex;
-    justify-content: space-around;
     color: rgb(226, 150, 150);
     font-size: 20px;
     margin: 0;
-
 }
 
 .sidepic1{
@@ -244,19 +246,26 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.sidepic2{
-    width: 250px;
+.polhom{
+    width: 30%;
     display: block;
-    margin: left ;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.copol {
+    text-align: center;
+    padding: 10px 0px;
 }
 
-.homemade{
+.lastpic{
     justify-content: center;
-}
-.sidepic3{
-    width: 250px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 550px;
     display: block;
-    margin: left ;
+    margin: center ;
+}
 }
 
 main {
