@@ -101,6 +101,16 @@ ul li:hover a:after{
     color: #D0B2AB;
 }
 
+.illust {
+    background-color: rgb(82, 50, 50);
+    display: inline-block;
+}
+
+.main .cumsalguarantee .row2{
+    background-color: sienna;
+    display: inline-block;
+}
+
 .tentang{
     font-size: 16px;
     line-height: 2;
