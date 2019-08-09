@@ -390,20 +390,14 @@ body {
 
 .slide:nth-child(3) {
   background: #eee;
->>>>>>> 354af4a32fd31255aa068637d795058e78fe99d7
-=======
-=======
->>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
 }
 
 p, span{
-    font: normal 50px Proxima Nova; 
+    font-size: 15px;
+    font-family : 'proxima-nova', 'roboto', sans-serif;
 }
 
-h1{
-    font: normal 80px Proxima Nova;
-<<<<<<< HEAD
->>>>>>> parent of 1e171cd... Add files via upload
-=======
->>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
+h3{
+    font-size:  15px; 
+    font-family : 'proxima-nova',  'roboto', sans-serif;
 }
