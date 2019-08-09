@@ -274,9 +274,11 @@ body {
 }
 .centerpic{
         position: absolute;
-        top: 50%;
-        left: 50%;
-        font-size: 50px;
+        top: 20%;
+        left: 17%;
+        font-size: 75px;
+        color: whitesmoke;
+        font-family: 'Patua One', cursive;
 }
 
 main {
