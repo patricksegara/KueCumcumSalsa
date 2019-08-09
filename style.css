@@ -76,16 +76,6 @@ ul li:hover a:after{
     margin: 0 auto;
 }
 
-.illust {
-    background-color: rgb(82, 50, 50);
-    display: inline-block;
-}
-
-.main .cumsalguarantee .row2{
-    background-color: sienna;
-    display: inline-block;
-}
-
 .tentang{
     font-size: 16px;
     line-height: 2;
@@ -119,4 +109,21 @@ ul li:hover a:after{
     width: 750px;
     display: block;
     margin: left ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cumsaldef {
+    display: flex;
+}
+
+.cumsalguarantee {
+    display: flex;
+}
+
+.cumsaldef .illust img{
+    background-color: rgb(82, 50, 50);
 }
