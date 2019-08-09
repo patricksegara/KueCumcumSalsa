@@ -43,7 +43,7 @@ Copy Folder Git
 Copy Folder Git ini ke local storage device
 ````
 
-### Features Testing
+## Running the tests
 #### Menjalankan web static
 ```
 Buka file index.html yang terdapat di folder ini dengan klik 2x atau Open With [browser pilihan]
@@ -59,7 +59,11 @@ Buka file index.html yang terdapat di folder ini dengan klik 2x atau Open With [
 
 ```
 
-## Tools, Library and Reference
+## Deployment
+Untuk menjalankan web static Cumcum Salsa secara Live dibutuhkan server yang berperang sebagai host
+untuk web static ini
+
+## Built With
 * [Notion](https://www.notion.so/Line-Bot-19f68b9a527248d2b7352788c8981076) - layouting line bot
 
 ## Contributing
