@@ -4,19 +4,30 @@ body{
     font-family: arial;
 }
 
-.navbar{
+
+.nduwuran{
+    position: fixed;
+    width: 100%;
+    height: 64px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 0 20px;
+    opacity: 0.7;
+    background-color: white;
+    text-decoration-color: #7a342f;
+    font-weight: bold;
+    z-index: 10;
 }
 
-#logo{
-    position: relative;
-    top: 15px;
-    right: 32%;
+
+.logo{
+    opacity: 1;
+    margin: 0 15px;
     width: 75px;
     height: 45px;
 }
-
 ul{
     align-content: flex-end;
     padding: 0;
@@ -71,9 +82,10 @@ ul li:hover a:after{
 }
 #slider {
   width: 1000px;
-  height: 1300px;
+  height: 1280px;
   overflow: hidden;
-  border: 1px solid #c69;
+  /*border: 1px solid #c69;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
 }
 
@@ -161,19 +173,16 @@ body {
   background: #eee;
 }
 .mainpic{
-    width: 1000px;
     display: block;
     margin: 0 auto;
 
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
-	background-image: url("assets/image/me2.jpg");
 	background-size: cover;
-
-	height: 700px;
-	width: 85%;
+    object-fit: cover;
+    width:75%;
+    height:600px;
 }
 .headtentang h1{
     font-size: 60px;
@@ -192,12 +201,11 @@ body {
 }
 
 .tentang{
-    font-size: 16px;
+    font-size: 1.5em !important;
     line-height: 2;
     letter-spacing: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
     color: #333;
-    background-color: #fff;
     width: 700px;
     margin: 25px 30px 20px 25px;
     padding: 0 20px 20px 20px;
@@ -208,14 +216,23 @@ body {
     flex-direction: column;
 }
 
+.garis{
+    height: 3px;
+    background-color:rgb(211, 127, 71);
+    margin: 15px 250px 50px 250px;
+}
+
 .container1{
     display: flex;
     justify-content: space-between;
+    padding: 0 auto;
+    background-image: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #e6e4e7, #cfc9cf, #b9afb6, #a5959c);
 }
 .sidepic{
-    width: 250px;
+    width: 15%;
     display: block;
-    margin: left ;
+    background-size: cover;
+    object-fit: cover;
 }
 
 .renyah h1{
@@ -223,19 +240,16 @@ body {
     font-size: 75px;
     text-align: center;
     margin: 0;
-    padding: 20px 0;
 }
 .renyah {
     display: flex;
-    justify-content: space-around;
     color: rgb(226, 150, 150);
     font-size: 20px;
     margin: 0;
-
 }
 
 .sidepic1{
-    width: 250px;
+    width: 550px;
     display: block;
     margin: left ;
 }
@@ -244,19 +258,37 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.sidepic2{
-    width: 250px;
+.polhom{
+    width: 30%;
     display: block;
-    margin: left ;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.homemade{
+  
+.copol {
+    text-align: center;
+    padding: 10px 0px;
+}
+.last{
+    position: relative;
+}
+.lastpic{
     justify-content: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    display: cover;
+    margin: center ;
 }
-.sidepic3{
-    width: 250px;
-    display: block;
-    margin: left ;
+.centerpic{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 75px;
+        color: whitesmoke;
+        font-family: 'Patua One', cursive;
 }
 
 main {
@@ -276,16 +308,12 @@ main {
     background-color: rgb(82, 50, 50);
 }
 
-p, span{
-    font: normal 50px Proxima Nova; 
-}
-
 h3{
     font-size:  15px; 
     font-family : 'proxima-nova',  'roboto', sans-serif;
 }
 h1{
-    font: normal 80px Proxima Nova;
+    font: normal 80px "Red Hat Text";
 }
 
 .testimonibar{
@@ -311,4 +339,16 @@ h1{
 
 .footerbar .container p.contact {
     font-size: 35px;
+}
+
+.rowstore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 5em 5em 5em;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
