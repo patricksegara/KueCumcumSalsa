@@ -4,22 +4,30 @@ body{
     font-family: arial;
 }
 
-.navbar{
+
+.nduwuran{
+    position: fixed;
+    width: 100%;
+    height: 64px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 0 20px;
+    opacity: 0.7;
+    background-color: white;
+    text-decoration-color: #7a342f;
+    font-weight: bold;
+    z-index: 10;
 }
-/*
-#apa {
-  font-size : 20px;
-}*/
-#logo{
-    position: relative;
-    top: 15px;
-    right: 32%;
+
+
+.logo{
+    opacity: 1;
+    margin: 0 15px;
     width: 75px;
     height: 45px;
 }
-
 ul{
     align-content: flex-end;
     padding: 0;
