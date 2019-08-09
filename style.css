@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1e171cd... Add files via upload
+=======
+>>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
 body{
     margin: 2px;
     padding: 0;
@@ -128,10 +131,14 @@ ul li:hover a:after{
 }
 .sidepic{
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 350px;
 =======
     width: 250px;
 >>>>>>> parent of 1e171cd... Add files via upload
+=======
+    width: 250px;
+>>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
     display: block;
     margin: left ;
 }
@@ -192,6 +199,7 @@ main {
 
 .cumsaldef .illust img{
     background-color: rgb(82, 50, 50);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 body{
@@ -384,6 +392,8 @@ body {
   background: #eee;
 >>>>>>> 354af4a32fd31255aa068637d795058e78fe99d7
 =======
+=======
+>>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
 }
 
 p, span{
@@ -392,5 +402,8 @@ p, span{
 
 h1{
     font: normal 80px Proxima Nova;
+<<<<<<< HEAD
 >>>>>>> parent of 1e171cd... Add files via upload
+=======
+>>>>>>> 82f7b86bc6f3360a8e9ff2c3eb90b4668da997a7
 }
