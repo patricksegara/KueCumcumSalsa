@@ -305,6 +305,10 @@ h1{
     background-color: #c69;
 }
 
-.footerbar .container img{
+.footerbar .container img.logo{
     margin-top: 50px; 
+}
+
+.footerbar .container p.contact {
+    font-size: 35px;
 }
