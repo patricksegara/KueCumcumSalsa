@@ -280,13 +280,31 @@ p, span{
     font: normal 50px Proxima Nova; 
 }
 
-<<<<<<< HEAD
 h3{
     font-size:  15px; 
     font-family : 'proxima-nova',  'roboto', sans-serif;
 }
-=======
 h1{
     font: normal 80px Proxima Nova;
 }
->>>>>>> 7fef5d2780bda5bf2d8c071f89fa9d22dd231eb8
+
+.testimonibar{
+    width: 100%;
+    height: 1500px;
+    background-color: navajowhite;
+}
+
+.footerbar{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.contaimer{
+    background-color: #c69;
+}
+
+.footerbar .container img{
+    margin-top: 50px; 
+}
