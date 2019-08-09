@@ -71,18 +71,14 @@ ul li:hover a:after{
 }
 
 .mainpic{
-    width: 1000px;
     display: block;
     margin: 0 auto;
 
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
-	background-image: url("assets/image/me2.jpg");
 	background-size: cover;
-
-	height: 700px;
+    object-fit: contain;
 	width: 85%;
 }
 .headtentang h1{
@@ -123,7 +119,7 @@ ul li:hover a:after{
     justify-content: space-between;
 }
 .sidepic{
-    width: 250px;
+    width: 500px;
     display: block;
     margin: left ;
 }
@@ -154,13 +150,20 @@ ul li:hover a:after{
     display: flex;
     justify-content: space-between;
 }
-.sidepic2{
-    width: 250px;
-    display: block;
-    margin: left ;
+.polhom{
+        width: 30%;
+        display: block;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: center;
+}
+      
+.copol {
+        text-align: center;
+        padding: 10px 0px;
 }
 
-.homemade{
+.lastpic{
     justify-content: center;
 }
 .sidepic3{
