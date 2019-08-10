@@ -97,5 +97,6 @@ cek [kontributor](https://docs.google.com/document/d/1liWSbPbjdCybE40tjTHKcpNfbi
 
 ## Acknowledgements
 * Web Static ini dibuat untuk memenuhi tugas SPARTA 2018 sebagai MVP dari tugas Tech Consultant Milestone 2
+* truecodes.org - Navigation Bar Animation (https://truecodes.org/2018/10/04/css-animation-jumping-menu/)
 
 

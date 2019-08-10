@@ -8,7 +8,7 @@ body{
 .nduwuran{
     position: fixed;
     width: 100%;
-    height: 64px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,11 +22,11 @@ body{
 }
 
 
-.logo{
+.nduwuran .logo{
     opacity: 1;
-    margin: 0 15px;
-    width: 75px;
-    height: 45px;
+    margin: 0 50px;
+    height: 80px;
+   
 }
 ul{
     align-content: flex-end;
@@ -87,6 +87,8 @@ ul li:hover a:after{
   /*border: 1px solid #c69;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .slide {
@@ -320,11 +322,12 @@ h1{
     width: 100%;
     height: 1500px;
     background-color: navajowhite;
+    text-align: center;
 }
 
 .footerbar{
     width: 100%;
-    height: 600px;
+    height: 450px;
     text-align: center;
     background-color: darkgray;
 }
